@@ -2,6 +2,7 @@ jupyterlab
 numpy
 scipy
 matplotlib
-scikit-build
 bitarray
-git+https://github.com/uber/h3-py.git@cython
+
+cython
+scikit-build

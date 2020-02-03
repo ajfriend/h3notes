@@ -3,7 +3,7 @@
 init: purge
 	virtualenv -p python3 env
 	env/bin/pip install -r requirements.txt
-	env/bin/pip install git+https://github.com/uber/h3-py.git@cython
+	env/bin/pip install git+https://github.com/uber/h3-py.git@cython --no-cache-dir
 
 purge:
 	-@rm -rf env .pytest_cache tests/__pycache__ __pycache__ _skbuild dist .coverage

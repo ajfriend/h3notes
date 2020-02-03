@@ -70,3 +70,8 @@ cpdef H3int[:] disk(H3int h, int k):
 - should we use `bint` instead of `bool`?
     + https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html
 
+# 2020-01-26
+
+- would `scikit-geometry` be helpful for some things?
+- https://medium.com/@wolfv/introducing-scikit-geometry-ae1dccaad5fd
+- http://scikit-geometry.github.io/scikit-geometry/index.html

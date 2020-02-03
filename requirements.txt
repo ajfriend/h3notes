@@ -3,6 +3,7 @@ numpy
 scipy
 matplotlib
 bitarray
+toolz
 
 cython
 scikit-build
